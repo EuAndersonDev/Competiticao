@@ -1,0 +1,33 @@
+public class intercacaomanipulacao{
+     public static void main(String[] args) {
+        int[] n = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+        system.out.println();
+        for(int i = 0; i < 10; i++){
+            System.out.println(n[i]);
+        }
+        for(int i = 0; i < 10; i++){
+            if(i % 2 != 0){
+                system.out.println(n[i]);
+            }
+        }
+        int soma = 0;
+        for(int i = 0; i < 10; i++){
+            soma += n[i];
+        }
+        System.out.println(soma);
+
+        int maior = 0;
+
+        for(int i = 0; i < 10; i++){
+            if(n[i]>maior){
+                maior = n[i];
+            }
+        }
+        system.out.println(maior);
+    }
+}
+/*2. Iteração e Manipulação
+Imprima todos os elementos do array utilizando um loop for.
+Imprima os elementos em posições ímpares (1, 3, 5, etc.).
+Encontre a soma de todos os elementos do array.
+Encontre o maior valor no array. */
