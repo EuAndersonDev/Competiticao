@@ -1,16 +1,12 @@
-
-n = list(input().split())
-a = len(n)
-
-
-m = 0
-i = 0
+n = int(input())
+arr = []
+soma = 0
 count = 0
-
-while m < 1000000:
-    int(n[i])
-    m += n[i]
-    i += 1
-    count += 1
-
-print(count)
+for i in range(n):
+    arr.append(int(input()))
+    soma += arr[i]
+    count+=1
+    
+    if soma >= 1000000:
+        break
+print(count)    
