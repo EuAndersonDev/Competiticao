@@ -22,7 +22,7 @@ Usado para:
 
 ## 📂 Estrutura do Repositório
 
-```plaintext
+
 📦 competitive-programming-exercises
 ├── python/
 ├── java/
