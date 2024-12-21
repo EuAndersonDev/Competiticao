@@ -27,3 +27,15 @@ Usado para:
 ├── python/
 ├── java/
 └── README.md
+
+🎯Objetivos
+Desenvolver habilidades em resolução de problemas com foco em competições como Codeforces, LeetCode e outras.
+Aprimorar algoritmos e estruturas de dados complexas usando Java.
+Praticar otimização e eficiência, explorando diferentes abordagens para problemas.
+Preparar para competições de alto nível por meio de prática constante e estudo direcionado.
+🏗 Contribuindo
+Este repositório é voltado para estudos pessoais, mas caso você tenha sugestões, fique à vontade para abrir uma issue ou enviar um pull request.
+
+📝 Contato
+📧 E-mail: euandersondev25@gmail.com
+🌐 GitHub: EuAndersonDev
