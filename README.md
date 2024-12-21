@@ -20,14 +20,6 @@ Usado para:
 
 ---
 
-## 📂 Estrutura do Repositório
-
-
-📦 competitive-programming-exercises
-├── python/
-├── java/
-└── README.md
-
 🎯Objetivos
 Desenvolver habilidades em resolução de problemas com foco em competições como Codeforces, LeetCode e outras.
 Aprimorar algoritmos e estruturas de dados complexas usando Java.
