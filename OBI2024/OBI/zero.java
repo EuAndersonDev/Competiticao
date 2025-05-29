@@ -1,22 +1,29 @@
-import java.util.*;
-public class zero {
-    private static char[] soma;
+import java.util.Scanner;
 
+public class ZeroParaCancelar {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-        int[] z = new int[n];
-        
-        for(int i = 0; i < n; i++){
-            z[i] = in.nextInt();
-        }
-        for(int j = n; j != 0; j--){
-            if (z[j] == 0) {
-                int exc = z[j-1];
-            }else{
+        Scanner sc = new Scanner(System.in);
+
+        int N = sc.nextInt();
+        int[] numeros = new int[N];
+        int topo = 0;
+
+        for (int i = 0; i < N; i++) {
+            int valor = sc.nextInt();
+
+            if (valor != 0) {
+                numeros[topo] = valor;
+                topo++;
+            } else if (topo > 0) {
+                topo--; // "Desfaz" o último número válido
             }
         }
+
+        int soma = 0;
+        for (int i = 0; i < topo; i++) {
+            soma += numeros[i];
+        }
+
         System.out.println(soma);
     }
-    
 }
